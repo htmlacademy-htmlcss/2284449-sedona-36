@@ -18,6 +18,7 @@ body {
     font-family: "PT Sans" sans-serif;
     font-size: 30px;
     line-height: 36px;
+    font-weight: 700;
     background-color: #ffffff;
     color: #000000;
 }
@@ -45,4 +46,85 @@ body {
 
 .hero {
     background-image: url(images/index-background);
+}
+
+.lead {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.advantages-list {
+    color:#ffffff;
+    background-color: #82B3D3;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.blue-square {
+    text-align: center;
+}
+
+.light-square {
+    text-align: center;
+    background-color: #83B3D31F;
+    color: #000000;
+}
+
+.blue-light-square {
+    text-align: center;
+    background-color: #83B3D333;
+    color: #000000;
+}
+
+.advantages-description {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.position-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.position-description {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.white-square {
+    text-align: center;
+}
+
+.navigation-link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #ffffff;
+    background-color: #756157;
+}
+
+.form-label {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.form-button {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #ffffff;
+    background-color: #82B3D3;
+}
+
+.subscribe {
+    background-image: url(background-mountains.jpg);
 }
