@@ -2,7 +2,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url(fonts/ptsans-400.woff2) format(woff2);
+    src: url(2284449-SEDONA-36/fonts/ptsans-400.woff2) format(woff2);
     font-display: swap;
 }
 
@@ -10,12 +10,12 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url(fonts/ptsans-700.woff2) format(woff2);
+    src: url(2284449-SEDONA-36/fonts/ptsans-700.woff2) format(woff2);
     font-display: swap;
 }
 
 body {
-    font-family: "PT Sans" sans-serif;
+    font-family: "PT Sans", sans-serif;
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
@@ -23,12 +23,12 @@ body {
     color: #000000;
 }
 
-.navigation-item {
+.navigation-link {
     font-size: 20px;
     line-height: 24px;
     text-transform: capitalize;
-    text-align: center;
     text-decoration: none;
+    color:#000000;
 }
 
 .vissually-hidden {
@@ -45,7 +45,8 @@ body {
 }
 
 .hero {
-    background-image: url(images/index-background);
+    background-image: url(2284449-SEDONA-36/images/index-background.jpg);
+    background-repeat: no-repeat;
 }
 
 .lead {
@@ -55,16 +56,10 @@ body {
     color: #333333;
 }
 
-.advantages-list {
-    color:#ffffff;
-    background-color: #82B3D3;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 700;
-}
-
 .blue-square {
     text-align: center;
+    color: #ffffff;
+    background-color: #82B3D3;
 }
 
 .light-square {
@@ -86,10 +81,17 @@ body {
     color: #333333;
 }
 
+.advantages-title {
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 28px;
+}
+
 .position-title {
     font-size: 24px;
     line-height: 28px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .position-description {
@@ -103,12 +105,14 @@ body {
     text-align: center;
 }
 
-.navigation-link {
+.navigation-buttom {
     font-weight: 700;
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 16px;
+    line-height: 20px;
     color: #ffffff;
     background-color: #756157;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .form-label {
@@ -123,8 +127,53 @@ body {
     line-height: 36px;
     color: #ffffff;
     background-color: #82B3D3;
+    text-transform: uppercase;
 }
 
 .subscribe {
-    background-image: url(background-mountains.jpg);
+    background-image: url(228449-SEDONA-36/images/background-mountains.jpg);
+    color:#ffffff;
+    background-color: aqua;
+}
+
+.navigation-link-current {
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:#000000;
+}
+
+.advantages-description-light {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.navigation-buttom-hotel {
+    font-size: 20px;
+    line-height: 36px;
+    color: #ffffff;
+    background-color: #756157;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.lead-white {
+    color:#ffffff;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.phone-number {
+    font-size: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color:#000000;
 }
