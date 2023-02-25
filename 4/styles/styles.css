@@ -2,7 +2,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url(2284449-SEDONA-36/fonts/ptsans-400.woff2) format(woff2);
+    src: url(../fonts/ptsans-400.woff2) format(woff2);
     font-display: swap;
 }
 
@@ -10,7 +10,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url(2284449-SEDONA-36/fonts/ptsans-700.woff2) format(woff2);
+    src: url(../fonts/ptsans-700.woff2) format(woff2);
     font-display: swap;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 .hero {
-    background-image: url(2284449-SEDONA-36/images/index-background.jpg);
+    background-image: url(../images/index-background.jpg);
     background-repeat: no-repeat;
 }
 
@@ -131,9 +131,8 @@ body {
 }
 
 .subscribe {
-    background-image: url(228449-SEDONA-36/images/background-mountains.jpg);
+    background-image: url(../images/background-mountains.jpg);
     color:#ffffff;
-    background-color: aqua;
 }
 
 .navigation-link-current {
@@ -176,4 +175,5 @@ body {
     line-height: 40px;
     text-decoration: none;
     color:#000000;
+    font-weight: 400;
 }
