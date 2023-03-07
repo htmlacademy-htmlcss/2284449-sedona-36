@@ -14,13 +14,56 @@
     font-display: swap;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     font-family: "PT Sans", sans-serif;
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
     background-color: #ffffff;
     color: #000000;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.main-container {
+    flex-grow: 1;
+}
+
+.navigation {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navigation-list-main {
+    width: 339px;
+    margin: 0;
+    padding: 0;
+    max-width: 400px;
+}
+
+.navigation-list {
+    width: 268px;
+    margin: 0;
+    padding: 0;
+    max-width: 338px;
+    margin-left: auto;
+}
+
+.navigation-logo {
+    margin-left: 70px;
+    margin-right: 28px;
 }
 
 .navigation-link {
@@ -47,6 +90,12 @@ body {
 .hero {
     background-image: url(../images/index-background.jpg);
     background-repeat: no-repeat;
+    width: 1200px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
 }
 
 .lead {
@@ -54,6 +103,9 @@ body {
     line-height: 26px;
     font-weight: 400;
     color: #333333;
+    text-align: center;
+    max-width: 651px;
+    margin: 0 auto;
 }
 
 .blue-square {
@@ -152,22 +204,34 @@ body {
 
 .uppercase {
     text-transform: uppercase;
+    margin: auto;
+    max-width: 620px;
+    padding: 0;
+    text-align: center;
 }
 
 .navigation-buttom-hotel {
+    display: flex;
     font-size: 20px;
     line-height: 36px;
     color: #ffffff;
     background-color: #756157;
     text-transform: uppercase;
     text-decoration: none;
+    width: 376px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .lead-white {
+    display: flex;
     color:#ffffff;
     font-size: 22px;
     line-height: 26px;
     font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    width: 475px;
 }
 
 .phone-number {
@@ -176,4 +240,50 @@ body {
     text-decoration: none;
     color:#000000;
     font-weight: 400;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.square {
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.advantages-img {
+    margin: 0;
+}
+
+.position-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.position-item {
+    width: 400px;
+}
+
+.appointment-form-email {
+    width: 684px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    text-align: center;
+    width: 276px;
+    margin: 0 auto;
+}
+
+.page-footer {
+    display: flex;
 }
